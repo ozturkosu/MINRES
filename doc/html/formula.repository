@@ -1,0 +1,8 @@
+\form#0:\begin{eqnarray*} \displaystyle \mathbf{u} - \Delta \mathbf{u} + \nabla p &= \mathbf{f} & {\rm in} \; [0,1]\times[0,1] \\ \displaystyle {\rm div}\; \mathbf{u} &= 0 & {\rm in} \; [0,1]\times[0,1] \end{eqnarray*}
+\form#1:$\mathbf{u} = [u,v]$
+\form#2:$p$
+\form#3:\begin{eqnarray*} \displaystyle u - \Delta u + \frac{dp}{dx} &=& f_x \\ \displaystyle v - \Delta v + \frac{dp}{dy} &=& f_y \\ \displaystyle \frac{du}{dx} + \frac{dv}{dy}&=& 0 \end{eqnarray*}
+\form#4:\[ u - \Delta u + \nabla p = f \]
+\form#5:\[ {\rm div} u = 0 \]
+\form#6:\[ \left[ \begin{array}{cc} C & B^T \\ B & 0 \end{array} \right] \left[ \begin{array}{c} u \\ p \end{array} \right] = \left[ \begin{array}{c} f \\ 0 \end{array} \right] \]
+\form#7:\[ P = \left[ \begin{array}{cc} C & 0 \\ 0 & W \end{array} \right] \]
